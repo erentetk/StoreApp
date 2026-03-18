@@ -1,0 +1,46 @@
+2022-11-06 16:00:19.9252 Info Message Template Auto Format enabled
+2022-11-06 16:00:20.1354 Info Adding target FileTarget(Name=logfile)
+2022-11-06 16:00:20.1686 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2022-11-06 16:01:27.4142 Info Message Template Auto Format enabled
+2022-11-06 16:01:27.4672 Info Adding target FileTarget(Name=logfile)
+2022-11-06 16:01:27.4911 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2026-03-10 11:34:09.7826 Info Message Template Auto Format enabled
+2026-03-10 11:34:09.9540 Info Adding target FileTarget(Name=logfile)
+2026-03-10 11:34:09.9960 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 11:40:31.6891 Info Message Template Auto Format enabled
+2026-03-10 11:40:31.8117 Info Adding target FileTarget(Name=logfile)
+2026-03-10 11:40:31.8380 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 11:43:21.8920 Info Message Template Auto Format enabled
+2026-03-10 11:43:21.9909 Info Adding target FileTarget(Name=logfile)
+2026-03-10 11:43:22.0186 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 13:40:38.5129 Info Message Template Auto Format enabled
+2026-03-10 13:40:38.6238 Info Adding target FileTarget(Name=logfile)
+2026-03-10 13:40:38.6593 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 13:43:55.0136 Info Message Template Auto Format enabled
+2026-03-10 13:43:55.1133 Info Adding target FileTarget(Name=logfile)
+2026-03-10 13:43:55.1401 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 13:44:49.9094 Info Message Template Auto Format enabled
+2026-03-10 13:44:49.9550 Info Adding target FileTarget(Name=logfile)
+2026-03-10 13:44:49.9751 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 13:46:19.9757 Info Message Template Auto Format enabled
+2026-03-10 13:46:20.0214 Info Adding target FileTarget(Name=logfile)
+2026-03-10 13:46:20.0411 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 14:12:40.9787 Info Message Template Auto Format enabled
+2026-03-10 14:12:41.0226 Info Adding target FileTarget(Name=logfile)
+2026-03-10 14:12:41.0417 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 14:28:58.6777 Info Message Template Auto Format enabled
+2026-03-10 14:28:58.7225 Info Adding target FileTarget(Name=logfile)
+2026-03-10 14:28:58.7419 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 14:53:00.6805 Info AppDomain Shutting down. LogFactory closing...
+2026-03-10 14:53:00.7052 Info LogFactory has been closed.
+2026-03-10 15:41:37.3214 Info Message Template Auto Format enabled
+2026-03-10 15:41:37.3688 Info Adding target FileTarget(Name=logfile)
+2026-03-10 15:41:37.3883 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-10 15:45:55.1199 Info AppDomain Shutting down. LogFactory closing...
+2026-03-10 15:45:55.1398 Info LogFactory has been closed.
+2026-03-10 18:13:51.3525 Info Message Template Auto Format enabled
+2026-03-10 18:13:51.4358 Info Adding target FileTarget(Name=logfile)
+2026-03-10 18:13:51.4625 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
+2026-03-11 14:41:01.8063 Info Message Template Auto Format enabled
+2026-03-11 14:41:01.8652 Info Adding target FileTarget(Name=logfile)
+2026-03-11 14:41:01.8844 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\eren.tetik\source\repos\bsStoreApp ALL\bsStoreApp-Github10.03.2026\bsStoreApp\WebApi\nlog.config
