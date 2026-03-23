@@ -366,6 +366,7 @@ Bu sınıfta EF Core sorguları repository desenine uyarlanmış durumda.
 ```csharp
 public Book CreateOneBook(Book book)
 {
+
     _manager.Book.CreateOneBook(book);
     _manager.Save();
     return book;
@@ -395,6 +396,8 @@ public Book GetOneBookById(int id, bool trackChanges)
     var book = _manager.Book.GetOneBookById(id,trackChanges);
     if (book is null)
          throw new BookNotFoundException(id);
+
+
     return book;
 }
 ```
@@ -438,6 +441,7 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
+
         CreateMap<BookDtoForUpdate, Book>();
     }
 }
@@ -980,16 +984,3 @@ Bu çözümde EF Core şu amaçlarla kullanılıyor:
 - `WebApi/Extensions/ServicesExtensions.cs`
 - `WebApi/ContextFactory/RepositoryContextFactory.cs`
 - `WebApi/Program.cs`
-
----
-
-## 18) Son cümle
-
-Eğer istersen bir sonraki adımda ben bu projeye gerçekten:
-
-- `Category` entity'si ekleyip,
-- `Book -> Category` one-to-many ilişkisini kurup,
-- `Include` / `ThenInclude` kullanan gerçek repository metotlarını yazıp,
-- migration komutlarını da netleştirerek
-
-örnek yapıyı doğrudan kod üzerinde de oluşturabilirim.
