@@ -81,13 +81,11 @@ Bu proje mantık olarak **Code First** yaklaşımına daha yakındır.
 
 Bu projede Code First olduğunu gösteren parçalar:
 
-1. Önce model var:
    - `Entities/Models/Book.cs`
 
-2. Sonra DbContext var:
    - `Repositories/EFCore/RepositoryContext.cs`
 
-3. Sonra config/seed var:
+**config/seed**
    - `Repositories/EFCore/Config/BookConfig.cs`
 
 ```csharp
@@ -102,6 +100,7 @@ public class BookConfig : IEntityTypeConfiguration<Book>
         );
     }
 }
+**>** Burası veri tabanına başlangıç datayı verir
 ```
 
 Yani önce sınıf tanımlanıyor, sonra veritabanı bu sınıflara göre şekilleniyor.
@@ -113,16 +112,7 @@ Database First yaklaşımında süreç tersidir:
 - Önce hazır bir veritabanı vardır.
 - Sonra EF Core o veritabanından sınıf üretir.
 
-Yani:
-
-- Code First = **Koddan veritabanına**
-- Database First = **Veritabanından koda**
-
-Bu projedeki yapı Database First değil; çünkü burada entity ve context tarafı zaten kodla tanımlanmış durumda.
-
----
-
-## 3) Migration nedir?
+## 3) Migration
 
 **Migration**, veritabanı şemasındaki değişiklikleri versiyonlu şekilde yönetmemizi sağlar.
 
@@ -176,13 +166,19 @@ dotnet ef database update --project WebApi --startup-project WebApi --context Re
 dotnet ef migrations remove --project WebApi --startup-project WebApi --context RepositoryContext
 ```
 
+ama Ama terminali `WebApi` klasörünün içinde açarsan, o zaman kısa komut çoğu durumda yeterli olur:
+```bash
+`dotnet ef migrations add InitialCreate`
+```
+
+
 ### Migration ne zaman kullanılır?
 
 - Yeni tablo eklerken
 - Alan eklerken / silerken
 - İlişki eklerken
 - Seed data yapısı değiştiğinde
-
+- Kısaca veri tabanaı ile alakalı bir güncelleme yapılınca
 ---
 
 ## 4) Veritabanı bağlantısı bu projede nasıl kurulmuş?
@@ -207,7 +203,7 @@ Bağlantı bilgisi de şurada:
 
 ```json
 "ConnectionStrings": {
-  "sqlConnection": "Host=localhost;Port=5432;Database=bsStoreApp;Username=postgres;Password=erentetik;",
+  "sqlConnection": "Host=localhost;Port=5432;Database=bsStoreApp;Username=postgres;Password=erenDbSifre;",
   "sqlConnectionSqlserver": "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = bsStoreApp; Integrated Security=true;"
 }
 ```
@@ -227,7 +223,7 @@ Bu projede akış şu şekilde:
 
 **Controller -> Service -> Repository -> EF Core(DbContext) -> Database**
 
-Yani `BooksController`, doğrudan `DbContext` ile konuşmuyor.
+Yani **BooksController**, doğrudan `DbContext` ile konuşmuyor.
 Önce service'e gidiyor, service repository'yi çağırıyor, repository de EF Core'u kullanıyor.
 
 ---
